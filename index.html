@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mochamad Ayuf Basthomi - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/Logo_revou.png" alt="RevoU Logo">
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I'm <span>Mochamad Ayuf Basthomi</span></h1>
+    <p>Software Engineer | Electronics Engineer | Robotics Developer</p>
+    <div class="banner">[ Your Photo Banner ]</div>
+  </section>
+
+  <!-- Profile Section -->
+  <section id="profile" class="profile">
+    <h2>About Me</h2>
+    <p>A 27-year-old electronics engineer passionate about automation, instrumentation, robotics, embedded systems, and web development. Skilled in developing innovative solutions for firmware, software, and testing electricity meters, with more than 5 years of professional experience in Research and Development (RnD). Experienced in full development cycle from requirement analysis, design, implementation, testing, deployment, to continuous improvement.</p>
+  </section>
+
+  <!-- Headquarters (optional showcase for locations, bisa kamu ganti jadi "Career Path") -->
+  <section class="headquarters">
+    <h2>Our Headquarter</h2>
+    <div class="cities">
+      <div class="city-card"><div class="circle"></div><p>Jakarta</p></div>
+      <div class="city-card"><div class="circle"></div><p>Bandung</p></div>
+      <div class="city-card"><div class="circle"></div><p>Surabaya</p></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience">
+    <h2>Professional Experience</h2>
+    <div class="job">
+      <h3>Software Engineer – WINENERJI (Jan 2025 – Present)</h3>
+      <ul>
+        <li>Designed & developed IO Coupler with integrated web server for PLC monitoring.</li>
+        <li>Implemented Modbus RTU (client) & Modbus TCP (master) protocols.</li>
+        <li>Built backend with Express.js & frontend with HTML + CSS.</li>
+        <li>Developed RESTful APIs for third-party integration.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Firmware Development Engineer – EDMI Limited (Nov 2020 – Jan 2025)</h3>
+      <ul>
+        <li>Developed electricity meters (single & three-phase) in C/C++.</li>
+        <li>Created Python-based testing tools to automate QA.</li>
+        <li>Delivered projects for Singapore, Iraq, Tanzania, Kirgizstan, and Batam.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Robotics Developer – Humanoid Soccer Robot Team (2016 – 2020)</h3>
+      <ul>
+        <li>Developed robot kinematics, kicking, dribbling, and recovery algorithms.</li>
+        <li>Implemented computer vision (Python + OpenCV) for ball tracking & awareness.</li>
+        <li>Built AI for autonomous soccer robot strategy and decision-making.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio / Projects -->
+  <section id="portfolio" class="portfolio">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Metland Cikarang Website</strong> – Corporate site with HTML, CSS, JS + SEO (sitemap & robots.txt).</li>
+      <li><strong>SIPAMAN (Room Reservation App)</strong> – Full-stack app (React + TypeScript + Vite + Express.js + MongoDB).</li>
+      <li><strong>Humanoid Soccer Robot</strong> – AI, vision, and motion control for RoboCup competition.</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="education">
+    <h2>Education</h2>
+    <p><strong>Politeknik Elektronika Negeri Surabaya</strong> (2016 – 2020)<br>
+    Bachelor of Applied Science Electronics Engineering – GPA 3.33</p>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <p><strong>Programming:</strong> Python, C, C++, JavaScript, TypeScript, Java, Git</p>
+    <p><strong>Web Development:</strong> Express.js, HTML, CSS, REST APIs</p>
+    <p><strong>Embedded & Control:</strong> PLC, DCS, SCADA, hardware design</p>
+    <p><strong>Soft Skills:</strong> Analytical thinking, Collaboration, Adaptability</p>
+  </section>
+
+  <!-- Achievements -->
+  <section class="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>2nd Place – Indonesian Humanoid Soccer Robot Contest 2020 (PUSPRESNAS)</li>
+      <li>1st Place – Indonesian Humanoid Soccer Robot Contest 2018 (RISTEKDIKTI)</li>
+      <li>16th International Humanoid Soccer Robot 2019 – RoboCup</li>
+      <li>Published journal & symposium papers on humanoid robotics</li>
+    </ul>
+  </section>
+
+  <!-- Message Form -->
+  <section id="message" class="contact">
+    <h2>Message Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required>
+
+      <label for="messageBox">Message:</label>
+      <textarea id="messageBox" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="resultBox">
+      <h3>Form Result:</h3>
+      <p id="formResult"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created by You</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
