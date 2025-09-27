@@ -46,16 +46,24 @@ body {
   color: white;
 }
 .hero .banner {
-  margin: 30px auto;
-  height: 220px;
-  max-width: 900px;
-  background: #e5e7eb;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #555;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.banner img {
+  max-height: 100%;
+  border-radius: 12px;
 }
 
 /* Section Global */
@@ -141,7 +149,8 @@ section p, section li {
 form {
   display: flex;
   flex-direction: column;
-  width: 768px;
+  max-width: 900px;
+  margin: auto;
   background: white;
   padding: 20px;
   border-radius: 12px;
@@ -172,11 +181,13 @@ button:hover {
   background: #1d4ed8;
 }
 #resultBox {
+  max-width: 900px;
+  margin: auto;
   background: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  width: 300px;
+  margin-bottom: 20px;
 }
 #formResult {
   font-size: 14px;
